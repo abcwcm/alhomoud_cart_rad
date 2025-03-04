@@ -7,7 +7,6 @@ log_mat_myc <- read.csv("/SSD/maa7095/scRNAseq/Guzman_CART/scanpy_process/clean_
 sig_datafram <- psedu_DE_res_myc %>% filter(padj < 0.05)
 
 select_genes_moh <- c("Arid1a", "Ubash3b", "Sdc4", "Sell", "Cd72", "Ndfip2", "Sox4", "Kdm3a", "Areg", "Dapl1", 
-                      "Pdcd6", "Pycard", 
                       "Coro1a", "Ciapin1", "Bst2", "Oaz1",
                       "Il12rb2", "Ifi202b", "Mapkapk2", "Atp5c1", "Lat", "Ifitm2", "Tox2", "Bax",
                       "Arap2", "Arhgdib")
@@ -33,7 +32,6 @@ annotation_col <- data.frame(
 
 annotation_row <- data.frame(
   Gene_Annotation = factor(c("Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", "Inhibition and\nregulation", 
-                       "Apoptosis", "Apoptosis", 
                        "Survival and\nproliferation", "Survival and\nproliferation", "Survival and\nproliferation","Survival and\nproliferation",
                        "Activation", "Activation", "Activation","Activation","Activation","Activation","Activation","Activation",
                        "Adhesion", "Adhesion"), 
