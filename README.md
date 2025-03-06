@@ -5,7 +5,7 @@ Scripts related to the analysis of scRNA-seq data from mice treated with CART19 
 
 ## DATA AVAILABILITY
 
-* Sequencing reads and processed objects (raw and normalized counts) can be downloaded from **GEO: X**.
+* Sequencing reads and processed object (raw and normalized counts) can be downloaded from **GEO: GSE291284**.
 
 ## DATA ANALYSIS
 
